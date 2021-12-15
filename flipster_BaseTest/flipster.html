@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--Flipster CSS File: -->
+    <link rel="stylesheet" href="css/jquery.flipster.css">
+    <link rel="stylesheet" href="css/themes/carousel.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Flipster Test</h1>
+
+    <!--Flipster Container Base -->
+    <div class="my-flipster">
+      <ul>
+        <li><img src="img/text1.gif" /></li>
+        <li><img src="img/text2.gif" /></li>
+        <li><img src="img/text1.gif" /></li>
+        <li><img src="img/text2.gif" /></li>
+        <li><img src="img/text1.gif" /></li>
+        <li><img src="img/text2.gif" /></li>
+      </ul>
+    </div>
+
+    <script src="js/jquery.flipster.js"></script>
+
+    <script>
+        $('.my-flipster').flipster({
+          style: 'carousel',
+          itemContainer: "ul",
+          itemSelector: 'li',
+          start: 'center',
+          spacing: -.3,
+        });
+    </script>
+  </body>
+</html>
