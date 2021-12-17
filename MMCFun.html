@@ -9,11 +9,17 @@
 		<title>Fun Times in Multimedia</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!--Additional CSS Fonts-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!--Flipster CSS File: -->
+		<link rel="stylesheet" href="flipster_BaseTest/css/jquery.flipster.css">
+		<link rel="stylesheet" href="flipster_BaseTest/css/themes/carousel.css">
 		</head>
 		<body class="is-preload">
 
@@ -34,19 +40,51 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">Having fun in Multimedia Communications</h1>
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
 							<p>What is the point of making video games if you can't share them with the world? At CCAC, Multimedia Communications has done this, from students to the community - We share our work and enjoy what we do!</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<div align="center" width="50%" style="padding-bottom: 100px;">
+								<a href="#gameJam"><img src="images/GameJam_Media/gameJam_Graphic.png" width="25%" align="center"></a>
+								<a href="#DabbleMingle"><img src="images/VRAR_DabbleMingle/VRARLogo_Pittsburgh.png" width="35%"></a>
+							</div>
+							<h2 id="gameJam">CCAC Game Jam 2018</h2>
+										<!--Gallery Testing Start-->
+											<div class="my-flipster">
+												<ul class="my-container">
+													<li class="container-item"><img src="images/GameJam_Media/imgGJ_01.png" /></li>
+													<li class="container-item"><img src="images/GameJam_Media/imgGJ_02.png" /></li>
+													<li class="container-item"><img src="images/GameJam_Media/imgGJ_03.png" /></li>
+													<li class="container-item"><img src="images/GameJam_Media/imgGJ_04.png" /></li>
+													<li class="container-item"><img src="images/GameJam_Media/imgGJ_05.png" /></li>
+													<li class="container-item"><img src="images/GameJam_Media/imgGJ_06.png" /></li>
+													<li class="container-item"><img src="images/GameJam_Media/imgGJ_07.png" /></li>
+													<li class="container-item"><img src="images/GameJam_Media/imgGJ_08.png" /></li>
+												</ul>
+											</div>
+										<!--	Gallery Testing End -->
+										<p>For over three years, CCAC has offered Multimedia Communications courses to numerous high schools in the Pittsburgh area. One of the drawbacks to this was the lack of intercommunication between the students in the discipline, at the high schools and CCAC. In 2018 with the help of a student engagement grant from CCAC, North Campus was able to host its first Game Jam. A Game Jam is a quick game prototype event very common in game development culture. Teams will work together (often meeting one another for the first time the day of the event) to create a game based on a theme. For CCAC, the theme was 'Escape'. Students from North Hills High School and West Allegheny High School came out to CCAC North Campus and created board games in eight hours based on the theme. CCAC also provided lunch and had a panel of judges including a member from Schell Games to review the games and select the winning team who each person received a $50.00 Steam Card. The winning game was titled, Escape the Minotaur.</p>
+										<div align="center" width="50%"><img src="images/GameJam_Media/winningTeam.png" align="center" style="padding-bottom: 100px;"></div>
+							<h2 id="DabbleMingle">VRAR Dabble & Mingle at Innovation Lab</h2>
+										<div align="center"><img src="images/GameJam_Media/iLab_Headsets_800.png"></div>
+										<p>As one of the members of the Virtual Reality and Augmented Reality (VRAR) Pittsburgh chapter members, through CCAC I provided several services such as introductory training seminars for those interested in getting started with VR and AR, but also a community Dabble and Mingle where the VRAR of Pittsburgh invited members of the community to join us in the Innovation Lab to learn more and experience these technologies hands on with the Innovation Lab hardware. This led to many connections with companies around Pittsburgh and one of the most common reactions I remember having attendees tell me was they did not realize CCAC had this sort of technologal degree. Overall, it was a wonderful success and showed the community that CCAC is at the cutting edge of technology.</p>
+										<!--Gallery Testing Start-->
+											<div class="my-flipster" style="padding-bottom: 100px">
+												<ul class="my-container">
+													<li class="container-item"><img src="images/VRAR_DabbleMingle/img1.jpg" /></li>
+													<li class="container-item"><img src="images/VRAR_DabbleMingle/img2.jpg" /></li>
+													<li class="container-item"><img src="images/VRAR_DabbleMingle/img3.jpg" /></li>
+													<li class="container-item"><img src="images/VRAR_DabbleMingle/img4.jpg" /></li>
+													<li class="container-item"><img src="images/VRAR_DabbleMingle/img5.jpg" /></li>
+												</ul>
+											</div>
+										<!--	Gallery Testing End -->
 						</div>
 					</section>
-
 			</div>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Dr. Rebecca DuPont. All rights reserved.</li>
 					</ul>
 				</div>
 			</footer>
@@ -60,5 +98,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<!--Flipster Gallery Scripts-->
+			<script src="flipster_BaseTest/JS/jquery.flipster.js"></script>
+
+			<script>
+					$('.my-flipster').flipster({
+						style: 'carousel',
+						itemContainer: ".my-container",
+						itemSelector: '.container-item',
+						start: 'center',
+						loop: false,
+						spacing: -.3,
+					});
+			</script>
 	</body>
 </html>

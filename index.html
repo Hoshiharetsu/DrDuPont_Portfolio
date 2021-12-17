@@ -16,10 +16,6 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Press+Start+2P&display=swap" rel="stylesheet">
-
-		<!--Flipster CSS File: -->
-		<link rel="stylesheet" href="flipster_BaseTest/css/jquery.flipster.css">
-		<link rel="stylesheet" href="flipster_BaseTest/css/themes/carousel.css">
 	</head>
 	<body class="is-preload">
 
@@ -133,27 +129,12 @@
 							<h2>The Student Group Members!</h2>
 							<p>At Community College of Allgheny County, I have had the joy of teaching and helping so many students grow. The work they continue to do never ceases to amaze me and makes me proud to be part of their learning experience.</p>
 
-							<!--Gallery Testing Start-->
-							<div class="my-flipster">
-								<ul class="my-container">
-									<li class="container-item"><img src="flipster_BaseTest/img/text1.gif" /></li>
-									<li class="container-item"><img src="flipster_BaseTest/img/text2.gif" /></li>
-									<li class="container-item"><img src="flipster_BaseTest/img/text3.gif" /></li>
-								</ul>
-							</div>
-						<!--	Gallery Testing End -->
-						</div>
 						<!--MMC Student Video Demo Reels-->
-						<table>
-							<tr>
-							<td>
+							<div>
 								<iframe width="530" height="315" src="https://www.youtube.com/embed/41i1fil5sr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</td>
-							<td>
 								<iframe width="530" height="315" src="https://www.youtube.com/embed/_lub656zWMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</td>
-						</tr>
-					</table>
+							</div>
+					</div>
 					</section>
 
 				<!-- Looking for Group -->
@@ -219,7 +200,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Dr. Rebecca DuPont. All rights reserved.</li></li>
+						<li>&copy; Dr. Rebecca DuPont. All rights reserved.</li>
 					</ul>
 				</div>
 			</footer>
@@ -233,19 +214,5 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-
-		<!--Flipster Gallery Scripts-->
-		<script src="flipster_BaseTest/JS/jquery.flipster.js"></script>
-
-		<script>
-				$('.my-flipster').flipster({
-					style: 'carousel',
-					itemContainer: ".my-container",
-					itemSelector: '.container-item',
-					start: 'center',
-					loop: false,
-					spacing: -.3,
-				});
-		</script>
 	</body>
 </html>
